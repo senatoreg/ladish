@@ -12,6 +12,8 @@
 /GTAGS
 /.waf-*
 /.lock-wafbuild
+/.cproject
+/.project
 /build
 *~
 *.pyc
