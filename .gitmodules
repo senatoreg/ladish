@@ -1,9 +1,9 @@
 [submodule "laditools"]
 	path = laditools
-	url = git://repo.or.cz/laditools.git
+	url = https://github.com/LADI/laditools.git
 [submodule "flowcanvas"]
 	path = flowcanvas
-	url = http://nedko.arnaudov.name/git/flowcanvas.git
+	url = https://github.com/LADI/flowcanvas.git
 [submodule "a2jmidid"]
 	path = a2jmidid
 	url = git://repo.or.cz/a2jmidid.git
