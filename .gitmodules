@@ -9,4 +9,4 @@
 	url = git://repo.or.cz/a2jmidid.git
 [submodule "jack2"]
 	path = jack2
-	url = git://repo.or.cz/jack2.git
+	url = https://github.com/jackaudio/jack2.git
