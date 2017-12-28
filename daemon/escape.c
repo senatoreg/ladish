@@ -50,6 +50,9 @@ void escape(const char ** src_ptr, char ** dst_ptr, unsigned int flags)
       {
         break;
       }
+      #if __GNUC__ >= 7
+        __attribute__ ((fallthrough));
+      #endif
     case '<':               /* invalid attribute value char (XML spec) */
     case '&':               /* invalid attribute value char (XML spec) */
     case '"':               /* we store attribute values in double quotes - invalid attribute value char (XML spec) */

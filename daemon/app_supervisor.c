@@ -619,6 +619,9 @@ static void ladish_app_send_signal(struct ladish_app * app_ptr, int sig, bool pr
       }
     }
     /* fall through to sending signal to pid */
+    #if __GNUC__ >= 7
+      __attribute__ ((fallthrough));
+    #endif
   default:
     if (app_ptr->pid <= 1)
     {
